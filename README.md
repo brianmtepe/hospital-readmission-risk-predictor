@@ -1,78 +1,99 @@
-# Hospital Readmission Risk Predictor (Nursing Data Analytics)
+#  Hospital Readmission Risk Predictor
 
-## Overview
-This project applies nursing data analytics to predict 30-day hospital readmission risk using
-patient admission and discharge data.
-It demostrates how nurses can use data to support clinical decision-making, discharge planning,
-and quality improvement initiatives.
 
-## Nursing and Clinical Context
-Hospital readmissions are often linked to:
--Inadequate discharge education
--Poor care transitions 
--Limited post discharge follow-up
+![Dashboard Preview](images/dashboard_preview.png)
 
-Nurses play a central role in identifying at-risk patients and coordinating care.
-This project uses data anlytics to support nursing-led interventions aimed at reducing preventable
-readmissions.
+##  Project Overview
 
-## Objectives
--Analyze patient demographic and clinical data
--Identify key factors contributing to hospital readmission
--Provide interpretable insights for healthcare decision making
--Support nursing discharge planning and transitional care
--Demostrate applied nursing informatics and analytics skills
+The **Hospital Readmission Risk Predictor** is a healthcare data analytics project designed to estimate the risk of a patient being readmitted within **30 days of discharge**. This project simulates realistic hospital workflows using SQL and Python, and presents results through an interactive **Power BI dashboard** that supports clinical decision-making and quality improvement.
 
-## Tools and technology
--Python (Pandas,Numpy,Scikit-learn)
--SQLite (SQL)
--Power BI
--VS code
--Git and Github
+Hospital readmissions are often indicators of care quality, discharge planning effectiveness, and care transition coordination. By identifying high-risk patients early, healthcare providers can design targeted interventions to reduce preventable readmissions.
 
-## Dataset Description
-An anonymized hospital dataset containing:
--Patient age and gender
--Primary diagnosis
--Length of hospital stay
--Previous hospital admissions
--Discharge disposition
--30-day readmission outcome (target variable)
 
-## Analytics Workflow
-1.Load raw hospital data (CSV)
-2.Clean and encode nursing-relevant variables
-3.Store processed data in a relational SQLite database
-4.Train a Logistic Regression model to estimate readmission risk
-5.Visualize insights in Power BI for nursing and quality teams 
+##  Project Objectives
 
-## Predictive Model
--Model:Logistic Regression
--Outcome: 30-day hospital readmission (Yes/No)
--Rationale:
- -Interpretable results for clinical teams 
- -Commonly used in healthcare risk stratification
- -Supports nursing discharge decision-making
+- Analyze patient admission and discharge data to estimate readmission risk.
+- Identify key clinical and demographic factors associated with readmissions.
+- Build a predictive model that supports healthcare teams in decision-making.
+- Visualize insights via an interactive Power BI dashboard.
 
-## Key Nursing Insights
--Patients with multiple prior admissions have higher readmission risk
--Longer hospital stays are associated with increased readmission
--Older adults benefit from enhanced discharge planning 
--Discharge disposition influence readmission outcomes
 
-## Ethical considerations 
- -Data is anonymized and used for educational purposes only 
- -Model outputs should support,not replace ,clinical judgment 
- -Bias and fairness considerations are acknowledged
 
-## How to Run the Project
-'''bash
-pip install -r requirements.txt
-cd scripts
-python load_data.py
-python clean_data.py
-python store_to_db.py
-python model.py
+##  Tools & Technologies
+
+This project uses the following tools:
+
+- Python (data processing, modeling)
+- SQL / SQLite (data storage & querying)
+- Jupyter Notebook (documentation & analysis)
+- Power BI (dashboard & visualization)
+- GitHub (project versioning)
+
+
+
+##  Dataset Description
+
+The dataset used in this project is anonymized and structured to represent common clinical variables including:
+
+- Patient demographics (age, gender)
+- Admission and discharge details
+- Length of hospital stay
+- Previous admissions
+- 30-day readmission indicator (target)
+
+All data is de-identified and used for educational purposes only.
+
+
+
+##  Analytics Workflow
+
+1. **Data Loading and Cleaning**  
+   Raw patient data is cleaned and prepared for analysis.
+
+2. **Database Storage**  
+   Processed data is loaded into a relational database using SQLite.
+
+3. **Model Training**
+   Train a Logistic Regression model to estimate the probability of 30-day readmission.
+
+4. **Model Evaluation**  
+   Performance metrics (e.g., accuracy, recall, ROC-AUC) assess the model’s validity.
+
+5. **Dashboard Visualization**  
+   Results and insights are presented in a Power BI dashboard for interactive exploration.
+
+
+
+##  Predictive Insights
+
+This project highlights the following insights:
+
+- **Multiple prior admissions** are associated with higher readmission risk.
+- **Longer hospital stays** correlate with increased readmission likelihood.
+- **Older patients** show a higher risk of readmission within 30 days.
+
+These insights can inform clinical teams in discharge planning and post-discharge care coordination.
+
+
+## 📊 Power BI Dashboard
+
+An interactive dashboard is included as a **Power BI template file** (`powerbi/Readmission_Risk_Dashboard.pbit`). To explore:
+
+1. Open the `.pbit` file in **Power BI Desktop**
+2. Connect your own dataset or a sample dataset
+3. Refresh the dashboard to see visual insights
+
+This dashboard includes:
+- Risk stratification charts
+- Key performance indicators
+- Filters for age, diagnosis, and discharge disposition
+
+
+##  How to Run This Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/brianmtepe/hospital-readmission-risk-predictor
 
  
  
