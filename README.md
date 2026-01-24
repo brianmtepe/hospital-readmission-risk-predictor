@@ -1,8 +1,5 @@
 #  Hospital Readmission Risk Predictor
 
-
-![Dashboard Preview](images/dashboard_preview.png)
-
 ##  Project Overview
 
 The **Hospital Readmission Risk Predictor** is a healthcare data analytics project designed to estimate the risk of a patient being readmitted within **30 days of discharge**. This project simulates realistic hospital workflows using SQL and Python, and presents results through an interactive **Power BI dashboard** that supports clinical decision-making and quality improvement.
@@ -18,7 +15,6 @@ Hospital readmissions are often indicators of care quality, discharge planning e
 - Visualize insights via an interactive Power BI dashboard.
 
 
-
 ##  Tools & Technologies
 
 This project uses the following tools:
@@ -28,7 +24,6 @@ This project uses the following tools:
 - Jupyter Notebook (documentation & analysis)
 - Power BI (dashboard & visualization)
 - GitHub (project versioning)
-
 
 
 ##  Dataset Description
@@ -42,7 +37,6 @@ The dataset used in this project is anonymized and structured to represent commo
 - 30-day readmission indicator (target)
 
 All data is de-identified and used for educational purposes only.
-
 
 
 ##  Analytics Workflow
@@ -61,7 +55,6 @@ All data is de-identified and used for educational purposes only.
 
 5. **Dashboard Visualization**  
    Results and insights are presented in a Power BI dashboard for interactive exploration.
-
 
 
 ##  Predictive Insights
