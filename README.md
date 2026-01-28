@@ -1,15 +1,17 @@
-#  Hospital Readmission Risk Predictor
+# Hospital Readmission Risk Predictor
 
-![Hospital Readmission Dashboard](images/dashboard.png)
+![Hospital Readmission Dashboard](images/Readmission_dashboard.png)
 
-##  Project Overview
+Download Power BI file: [Hospital Readmission Dashboard](powerbi/Readmission_dashboard.pbix)
+
+# Project Overview
 
 The Hospital Readmission Risk Predictor is a healthcare data analytics project designed to estimate the risk of a patient being readmitted within 30 days of discharge. This project simulates realistic hospital workflows using SQL and Python, and presents results through an interactive Power BI dashboard that supports clinical decision-making and quality improvement.
 
 Hospital readmissions are often indicators of care quality, discharge planning effectiveness, and care transition coordination. By identifying high-risk patients early, healthcare providers can design targeted interventions to reduce preventable readmissions.
 
 
-##  Project Objectives
+# Project Objectives
 
 - Analyze patient admission and discharge data to estimate readmission risk.
 - Identify key clinical and demographic factors associated with readmissions.
@@ -17,18 +19,18 @@ Hospital readmissions are often indicators of care quality, discharge planning e
 - Visualize insights via an interactive Power BI dashboard.
 
 
-##  Tools & Technologies
+# Tools & Technologies
 
-This project uses t** following tools:
+This project uses the following tools:
 
 - Python (data processing, modeling)
 - SQL / SQLite (data storage & querying)
 - Jupyter Notebook (documentation & analysis)
 - Power BI (dashboard & visualization)
 - GitHub (project versioning)
-- 
 
-##  Dataset Description
+
+# Dataset Description
 
 The dataset used in this project is anonymized and structured to represent common clinical variables including:
 
@@ -41,7 +43,7 @@ The dataset used in this project is anonymized and structured to represent commo
 All data is de-identified and used for educational purposes only.
 
 
-##  Analytics Workflow
+# Analytics Workflow
 
 1. Data Loading and Cleaning  
    Raw patient data is cleaned and prepared for analysis.
@@ -59,7 +61,7 @@ All data is de-identified and used for educational purposes only.
    Results and insights are presented in a Power BI dashboard for interactive exploration.
 
 
-##  Predictive Insights
+# Predictive Insights
 
 This project highlights the following insights:
 
@@ -70,7 +72,7 @@ This project highlights the following insights:
 These insights can inform clinical teams in discharge planning and post-discharge care coordination.
 
 
-##  Power BI Dashboard
+# 📊 Power BI Dashboard
 
 An interactive dashboard is included as a Power BI template file (`powerbi/Readmission_Risk_Dashboard.pbit`). To explore:
 
@@ -82,10 +84,14 @@ This dashboard includes:
 - Risk stratification charts
 - Key performance indicators
 - Filters for age, diagnosis, and ward
+- Filters for age, diagnosis, and discharge disposition
 
 
-##  How to Run This Project
+# How to Run This Project
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/brianmtepe/hospital-readmission-risk-predictoror simulated for learning purposes.
+   git clone https://github.com/brianmtepe/hospital-readmission-risk-predictor
+
+ 
+
