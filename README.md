@@ -1,6 +1,6 @@
 # Hospital Readmission Analytics & Risk Prediction System
 
-![Clinical Performance Dashboard](images/Clinical Readmission Analytics.jpeg)
+![Clinical Performance Dashboard](images/Clinical%20Readmission%20Analytics%20.jpeg)
 
 ## Executive Deliverables
 - 📊 Power BI Dashboard: Clinical Readmission Analytics  
