@@ -1,97 +1,93 @@
-# Hospital Readmission Risk Predictor
+# Hospital Readmission Analytics & Risk Prediction System
 
-![Hospital Readmission Dashboard](images/Readmission_dashboard.png)
+![Clinical Performance Dashboard](images/Clinical_Readmission_Analytics.jpeg)
 
-Download Power BI file: [Hospital Readmission Dashboard](powerbi/Readmission_dashboard.pbix)
+## Executive Deliverables
+- 📊 Power BI Dashboard: Clinical Readmission Analytics  
+- 📄 Executive Report: 30-Day Readmission Insights & Recommendations  
 
-# Project Overview
+---
 
-The Hospital Readmission Risk Predictor is a healthcare data analytics project designed to estimate the risk of a patient being readmitted within 30 days of discharge. This project simulates realistic hospital workflows using SQL and Python, and presents results through an interactive Power BI dashboard that supports clinical decision-making and quality improvement.
+## Problem Statement
+Hospital readmissions within 30 days are a key indicator of care quality and operational efficiency. High readmission rates increase healthcare costs, strain hospital resources, and indicate gaps in discharge planning and follow-up care.
 
-Hospital readmissions are often indicators of care quality, discharge planning effectiveness, and care transition coordination. By identifying high-risk patients early, healthcare providers can design targeted interventions to reduce preventable readmissions.
+---
 
+## Solution Overview
+This project delivers a **healthcare analytics system** that identifies high-risk patients, analyzes key drivers of readmission, and provides actionable insights to support clinical decision-making.
 
-# Project Objectives
+Built using **SQL, Power BI, and Python**, the system transforms raw hospital data into a structured, insight-driven dashboard for healthcare stakeholders.
 
-- Analyze patient admission and discharge data to estimate readmission risk.
-- Identify key clinical and demographic factors associated with readmissions.
-- Build a predictive model that supports healthcare teams in decision-making.
-- Visualize insights via an interactive Power BI dashboard.
+---
 
+## Key Insights (From Analysis)
 
-# Tools & Technologies
+- Patients with **moderate length of stay (3–8 days)** show the highest readmission risk  
+- **Polypharmacy (high medication count)** is strongly associated with increased readmissions  
+- Patients discharged to **care facilities** have higher readmission rates compared to home discharge  
+- Older patient groups (50+) demonstrate significantly higher risk profiles  
 
-This project uses the following tools:
+---
 
-- Python (data processing, modeling)
-- SQL / SQLite (data storage & querying)
-- Jupyter Notebook (documentation & analysis)
-- Power BI (dashboard & visualization)
-- GitHub (project versioning)
+## Clinical Recommendations
 
+- Implement **medication reconciliation protocols** to manage polypharmacy risk  
+- Strengthen **discharge planning workflows**, especially for facility-bound patients  
+- Introduce **early follow-up interventions (within 7 days post-discharge)**  
+- Focus targeted interventions on **high-risk age groups**  
 
-# Dataset Description
+---
 
-The dataset used in this project is anonymized and structured to represent common clinical variables including:
+## Core Features
 
-- Patient demographics (age, gender)
-- Admission and discharge details
-- Length of hospital stay
-- Previous admissions
-- 30-day readmission indicator (target)
+### 1. Risk Stratification
+- Patient segmentation into **Low, Medium, High risk categories**
+- Enables targeted clinical interventions  
 
-All data is de-identified and used for educational purposes only.
+### 2. Operational Analytics
+- Correlation between **Length of Stay (LOS)** and readmission probability  
+- Supports hospital resource planning  
 
+### 3. Interactive Dashboard
+- Dynamic filtering by:
+  - Age  
+  - Risk level  
+  - Discharge destination  
 
-# Analytics Workflow
+### 4. Predictive Modeling
+- Logistic Regression model to estimate **readmission probability**
+- Supports proactive patient management  
 
-1. Data Loading and Cleaning  
-   Raw patient data is cleaned and prepared for analysis.
+---
 
-2. Database Storage  
-   Processed data is loaded into a relational database using SQLite.
+## Tools & Technologies
 
-3. Model Training  
-   A predictive model (e.g., logistic regression or similar) is trained to estimate the probability of 30-day readmission.
+- **SQL** – Data extraction and transformation  
+- **Power BI** – Dashboard development and DAX analytics  
+- **Python (scikit-learn)** – Predictive modeling  
 
-4. Model Evaluation  
-   Performance metrics (e.g., accuracy, recall, ROC-AUC) assess the model’s validity.
+---
 
-5. Dashboard Visualization  
-   Results and insights are presented in a Power BI dashboard for interactive exploration.
+## Business Impact
 
+This solution enables healthcare providers to:
 
-# Predictive Insights
+- Identify high-risk patients early  
+- Reduce avoidable readmissions  
+- Improve patient outcomes  
+- Support data-driven clinical decisions  
 
-This project highlights the following insights:
+---
 
-- Multiple prior admissions are associated with higher readmission risk.
-- Longer hospital stays correlate with increased readmission likelihood.
-- Older patients show a higher risk of readmission within 30 days.
+## Project Roadmap
 
-These insights can inform clinical teams in discharge planning and post-discharge care coordination.
+1. ✅ Clinical Performance Analysis  
+2. 🚧 Care Pathway Optimization  
+3. 🔜 Predictive Risk Stratification  
 
+---
 
-# 📊 Power BI Dashboard
+## Author
 
-An interactive dashboard is included as a Power BI template file (`powerbi/Readmission_Risk_Dashboard.pbit`). To explore:
-
-1. Open the `.pbit` file in Power BI Desktop
-2. Connect your own dataset or a sample dataset
-3. Refresh the dashboard to see visual insights
-
-This dashboard includes:
-- Risk stratification charts
-- Key performance indicators
-- Filters for age, diagnosis, and ward
-- Filters for age, diagnosis, and discharge disposition
-
-
-# How to Run This Project
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/brianmtepe/hospital-readmission-risk-predictor
-
- 
-
+**Brian Mtepe, KRCHN**  
+Healthcare Data Analyst
