@@ -145,6 +145,4 @@ This project demonstrates how healthcare data analytics can support:
 ## Brian Mtepe, KRCHN
 Healthcare Data Analyst
 
-Github: https://github.com/brianmtepe
-
-```
+GitHub: https://github.com/brianmtepe
