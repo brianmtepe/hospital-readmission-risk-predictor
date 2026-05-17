@@ -1,93 +1,150 @@
 # Hospital Readmission Analytics & Risk Prediction System
 
-![Clinical Performance Dashboard](images/Clinical%20Readmission%20Analytics%20.jpeg)
+## Overview
 
-## Executive Deliverables
-- 📊 Power BI Dashboard: Clinical Readmission Analytics  
-- 📄 Executive Report: 30-Day Readmission Insights & Recommendations  
+Healthcare analytics project focused on identifying hospital readmission patterns, high-risk patient groups, and operational risk factors using Power BI, SQL, and Python.
 
----
-
-## Problem Statement
-Hospital readmissions within 30 days are a key indicator of care quality and operational efficiency. High readmission rates increase healthcare costs, strain hospital resources, and indicate gaps in discharge planning and follow-up care.
+The project combines clinical insight with data analytics to support readmission monitoring, discharge planning, and healthcare decision-making.
 
 ---
 
-## Solution Overview
-This project delivers a **healthcare analytics system** that identifies high-risk patients, analyzes key drivers of readmission, and provides actionable insights to support clinical decision-making.
+# Dashboard Pages
 
-Built using **SQL, Power BI, and Python**, the system transforms raw hospital data into a structured, insight-driven dashboard for healthcare stakeholders.
+## 1. Executive Readmission Overview
 
----
+![Executive Overview](images/Readmission_risk_executive_overview.jpeg)
 
-## Key Insights (From Analysis)
-
-- Patients with **moderate length of stay (3–8 days)** show the highest readmission risk  
-- **Polypharmacy (high medication count)** is strongly associated with increased readmissions  
-- Patients discharged to **care facilities** have higher readmission rates compared to home discharge  
-- Older patient groups (50+) demonstrate significantly higher risk profiles  
+### Highlights
+- Readmission rate monitoring
+- High-risk patient overview
+- Executive clinical summary
+- Key healthcare KPIs
 
 ---
 
-## Clinical Recommendations
+## 2. Clinical Performance Analysis
 
-- Implement **medication reconciliation protocols** to manage polypharmacy risk  
-- Strengthen **discharge planning workflows**, especially for facility-bound patients  
-- Introduce **early follow-up interventions (within 7 days post-discharge)**  
-- Focus targeted interventions on **high-risk age groups**  
+![Clinical Performance Dashboard](images/Clinical_Readmission_Analytics.jpeg)
 
----
-
-## Core Features
-
-### 1. Risk Stratification
-- Patient segmentation into **Low, Medium, High risk categories**
-- Enables targeted clinical interventions  
-
-### 2. Operational Analytics
-- Correlation between **Length of Stay (LOS)** and readmission probability  
-- Supports hospital resource planning  
-
-### 3. Interactive Dashboard
-- Dynamic filtering by:
-  - Age  
-  - Risk level  
-  - Discharge destination  
-
-### 4. Predictive Modeling
-- Logistic Regression model to estimate **readmission probability**
-- Supports proactive patient management  
+### Analysis Areas
+- Readmission trends
+- Length of stay analysis
+- Polypharmacy impact
+- Discharge pathway monitoring
 
 ---
 
-## Tools & Technologies
+## 3. Care Pathway Optimization
 
-- **SQL** – Data extraction and transformation  
-- **Power BI** – Dashboard development and DAX analytics  
-- **Python (scikit-learn)** – Predictive modeling  
+![Care Pathways Optimization](images/Care_Pathways_Optimization.jpeg)
 
----
-
-## Business Impact
-
-This solution enables healthcare providers to:
-
-- Identify high-risk patients early  
-- Reduce avoidable readmissions  
-- Improve patient outcomes  
-- Support data-driven clinical decisions  
+### Operational Insights
+- Financial exposure analysis
+- Medication burden correlation
+- Readmission cost drivers
+- Intervention prioritization
 
 ---
 
-## Project Roadmap
+# Problem Statement
 
-1. ✅ Clinical Performance Analysis  
-2. 🚧 Care Pathway Optimization  
-3. 🔜 Predictive Risk Stratification  
+Hospital readmissions within 30 days are associated with increased healthcare costs, resource strain, and gaps in discharge planning and follow-up care.
+
+Understanding readmission drivers can support earlier intervention and improve patient management strategies.
 
 ---
 
-## Author
+# Solution Overview
 
-**Brian Mtepe, KRCHN**  
+This project analyzes hospital readmission data to identify patterns associated with increased readmission risk.
+
+The dashboard supports:
+- Risk stratification
+- Readmission trend analysis
+- Operational monitoring
+- Clinical insight visualization
+
+Built using:
+- SQL
+- Power BI
+- Python
+
+---
+
+# Key Insights
+
+- Patients with moderate length of stay (3–8 days) showed elevated readmission patterns
+- Polypharmacy (high medication count) was associated with increased readmission risk
+- Facility-based discharge pathways demonstrated higher readmission trends
+- Older patient groups showed higher risk profiles
+
+---
+
+# Clinical Recommendations
+
+- Strengthen medication reconciliation workflows
+- Improve discharge planning processes
+- Introduce early post-discharge follow-up
+- Prioritize monitoring for higher-risk patient groups
+
+---
+
+# Core Features
+
+## Risk Stratification
+- Patient grouping into Low, Medium, and High-risk categories
+
+## Operational Analytics
+- Length of stay analysis
+- Readmission trend monitoring
+- Financial exposure tracking
+
+## Interactive Dashboards
+Dynamic filtering by:
+- Age group
+- Risk category
+- Discharge destination
+
+## Predictive Modeling
+- Logistic Regression model for readmission risk estimation
+
+---
+
+# Tools & Technologies
+
+| Tool | Purpose |
+|---|---|
+| SQL | Data cleaning and transformation |
+| Power BI | Dashboard development and visualization |
+| Python | Data analysis and predictive modeling |
+| scikit-learn | Logistic Regression modeling |
+
+---
+
+# Business Value
+
+This project demonstrates how healthcare data analytics can support:
+- Readmission monitoring
+- Early risk identification
+- Operational decision-making
+- Patient outcome improvement initiatives
+
+---
+
+# Project Status
+
+- ✅ Executive Readmission Overview
+- ✅ Clinical Performance Analysis
+- ✅ Care Pathway Optimization
+- 🚧 Predictive Risk Stratification
+
+---
+
+# Author
+
+## Brian Mtepe, KRCHN
 Healthcare Data Analyst
+
+Github: https://github.com/brianmtepe
+
+```
