@@ -1,222 +1,172 @@
-Hospital Readmission Analytics & Risk Prediction Dashboard
+# Maternal & Child Health (MCH) County Analytics Dashboard
 
-Overview
+## Clinical Triage of Service Gaps Across Kenya's 47 Counties
 
-Healthcare analytics project focused on identifying hospital readmission patterns, high-risk patient groups, and operational risk factors using SQL, Python, and Power BI.
+This project is a healthcare analytics solution designed to monitor Maternal & Child Health (MCH) indicators across Kenya using **Power BI, SQL, and Python**.
 
-The project combines clinical insight with data analytics to support readmission monitoring, discharge planning, and healthcare decision-making.
-
-Technology Stack: SQL | Python (Pandas) | Power BI | scikit-learn
+The dashboard transforms raw clinical datasets into executive-level insights for hospitals, NGOs, public health programs, and healthcare decision-makers.
 
 ---
 
-Dashboard Preview
+# Executive Summary
 
-Executive Readmission Overview
+*Primary clinical findings and healthcare system overview.*
 
-"Executive Readmission Overview" (images/Readmission_Risk_Executive_Summary.png)
-
-Highlights
-
-- Readmission rate monitoring
-- High-risk patient overview
-- Executive clinical summary
-- Key healthcare KPIs
-
-Clinical Performance Analysis
-
-"Clinical Performance Analysis" (images/Clinical_Readmission_Risk_Overview.jpeg)
-
-Analysis Areas
-
-- Readmission trends
-- Length of stay analysis
-- Polypharmacy impact
-- Discharge pathway monitoring
-
-Care Pathway Optimization & Financial Risk Analysis
-
-"Care Pathway Optimization" (images/Care%20Transition%20%26%20Financial%20Risk%20Analysis.jpeg)
-
-Operational Insights
-
-- Financial exposure analysis
-- Medication burden correlation
-- Readmission cost drivers
-- Intervention prioritization
+![Executive Summary](Images/MCH_Executive_Dashboard_Summary.png)
 
 ---
 
-Problem Statement
+# Problem Statement
 
-Hospital readmissions within 30 days are associated with increased healthcare costs, resource strain, and gaps in discharge planning and follow-up care.
+Maternal and child health outcomes are often affected by delayed identification of service delivery gaps and regional healthcare disparities. Public health teams require clear, data-driven tools to monitor mortality trends, evaluate maternal healthcare coverage, and prioritize high-risk counties for intervention.
 
-Understanding readmission drivers can support earlier intervention, improve patient outcomes, and reduce avoidable healthcare expenditure.
+Traditional spreadsheet reporting makes it difficult to rapidly identify:
+- Counties with elevated under-5 mortality rates
+- Gaps between facility delivery and postnatal care utilization
+- Regional inequalities in healthcare service coverage
+- Counties requiring targeted public health interventions
 
----
-
-Solution Overview
-
-This project analyzes hospital readmission data to identify patterns associated with increased readmission risk.
-
-The dashboard supports:
-
-- Risk stratification
-- Readmission trend analysis
-- Operational monitoring
-- Clinical insight visualization
+This project addresses these challenges through interactive healthcare analytics and executive-level dashboard reporting.
 
 ---
 
-SQL Analytics Highlights
+# Solution Overview
 
-The analytics pipeline relies on SQL for transforming raw clinical records into structured datasets ready for reporting and analysis.
+A multi-page Power BI healthcare analytics dashboard was developed to:
+- Monitor Maternal & Child Health indicators at county level
+- Visualize mortality and healthcare service trends
+- Stratify counties by healthcare risk level
+- Support evidence-based public health decision-making
+- Transform structured healthcare data into actionable clinical insights
 
-Data Cleaning & Standardization
-
-- Normalization of diagnosis categories
-- Data quality validation
-- Missing and duplicate record handling
-
-Feature Engineering
-
-- Patient risk cohort creation
-- Age group segmentation
-- Polypharmacy categorization
-- Clinical risk factor mapping
-
-Readmission Analytics
-
-- Readmission rate aggregation
-- Length-of-stay analysis
-- Discharge pathway evaluation
-- Trend monitoring
-
-Advanced SQL Techniques
-
-- Common Table Expressions (CTEs)
-- Window Functions
-- CASE WHEN Logic
-- Aggregate Functions
-- Multi-table Joins
-
-Repository SQL Files
-
-- "01_database_setup.sql"
-- "02_feature_engineering.sql"
-- "03_analytics_views.sql"
-- "04_data_quality_checks.sql"
+The workflow included:
+- SQL-based data extraction
+- Python (Pandas) data cleaning and preprocessing
+- Power BI dashboard development with DAX calculations
+- Executive healthcare reporting using Canva
 
 ---
 
-Key Insights
+# Dashboard Pages
 
-- Patients with moderate length of stay (3–8 days) demonstrated elevated readmission patterns.
-- Polypharmacy was associated with increased readmission risk.
-- Certain discharge pathways showed higher readmission trends.
-- Older patient groups exhibited higher-risk clinical profiles.
-- Readmission risk varied significantly across patient cohorts.
+## 1. National MCH Triage Dashboard
 
----
+*National-level mortality and service coverage analysis across Kenyan counties.*
 
-Clinical Recommendations
-
-- Strengthen medication reconciliation workflows.
-- Improve discharge planning processes.
-- Introduce early post-discharge follow-up programs.
-- Prioritize monitoring for higher-risk patient groups.
-- Utilize risk stratification models to support targeted interventions.
+![National MCH Triage](Images/Page1_National_MCH_Triage.jpeg)
 
 ---
 
-Core Features
+## 2. Risk Segmentation Analysis
 
-Risk Stratification
+*County-level comparison of mortality burden versus maternal healthcare performance indicators.*
 
-- Low, Medium, and High-Risk patient categories
-- Identification of vulnerable patient populations
-
-Operational Analytics
-
-- Length-of-stay analysis
-- Readmission monitoring
-- Financial exposure tracking
-- Discharge pathway assessment
-
-Interactive Dashboards
-
-- Age group filtering
-- Risk category filtering
-- Discharge destination filtering
-- Clinical characteristic filtering
-
-Predictive Modeling
-
-- Logistic Regression model
-- Feature-based risk prediction framework
+![Risk Segmentation](Images/Page2_Risk_Segmentation_Analysis.jpeg)
 
 ---
 
-Tools & Technologies
+## 3. Postnatal Care Gap Diagnostic
 
-Tool| Purpose
-SQL| Data cleaning, transformation, and analytics
-Python (Pandas)| Data preparation and analysis
-Power BI| Dashboard development and visualization
-scikit-learn| Logistic Regression modeling
+*Focused analysis of postnatal care coverage gaps within the first 48 hours after delivery.*
+
+![Postnatal Care Gap](Images/Page3_Postnatal_Care_Gap_Diagnostic.jpeg)
 
 ---
 
-Business Value
+# Project Objectives
 
-This project demonstrates how healthcare organizations can leverage analytics to:
-
-- Identify patients at elevated risk of readmission
-- Improve discharge planning workflows
-- Monitor operational performance indicators
-- Support data-driven resource allocation
-- Reduce avoidable readmission costs
-- Strengthen quality improvement initiatives
+- Monitor Maternal & Child Health service coverage across counties
+- Identify high-risk counties with poor healthcare outcomes
+- Compare Facility Delivery, ANC, and Postnatal Care indicators
+- Support county-level healthcare planning and reporting
+- Transform raw clinical datasets into actionable public health insights
 
 ---
 
-Project Status
+# Key Clinical Insights
 
-- ✅ Executive Readmission Overview
-- ✅ Clinical Performance Analysis
-- ✅ Care Pathway Optimization
-- 🚧 Predictive Risk Stratification Enhancement
-
----
-
-Portfolio
-
-GitHub Portfolio
-https://github.com/brianmtepe
-
-This repository forms part of a broader healthcare analytics portfolio focused on:
-
-- Clinical Operations Analytics
-- Public Health Reporting
-- Healthcare Data Visualization
-- Monitoring & Evaluation (M&E)
-- Decision Support Systems
+| Indicator | Finding |
+|---|---|
+| **Facility Delivery Coverage** | Average Facility Delivery Rate: **69.74%** |
+| **ANC 4+ Coverage** | Average ANC Coverage: **59.94%** |
+| **Postnatal Care Coverage** | Average PNC within 48 Hours: **57.45%** |
+| **Under-5 Mortality** | Average Rate: **55.34 per 1,000** |
 
 ---
 
-Author
+# Dashboard Features
 
-Brian Mtepe, KRCHN
-Healthcare Data Analyst
+- Multi-page interactive Power BI dashboard
+- County-level healthcare risk analysis
+- KPI cards and executive healthcare summaries
+- Comparative maternal health service analysis
+- Risk segmentation and trend monitoring
+- Interactive slicers and filtering functionality
 
-Skills
+---
 
-- Healthcare Analytics
-- SQL
-- Python
-- Power BI
-- Data Visualization
-- Clinical Informatics
-- Monitoring & Evaluation (M&E)
+# Technical Workflow
 
-Transforming healthcare data into actionable clinical and operational insights.
+## Data Preparation
+- SQL data extraction
+- Python (Pandas, NumPy) preprocessing
+- Dataset transformation and validation
+
+## Dashboard Development
+- Power BI dashboard modeling
+- DAX calculations and KPI creation
+- Interactive healthcare visualizations
+
+## Executive Reporting
+- Canva executive summary design
+- GitHub project documentation
+
+---
+
+# Technical Stack
+
+| Category | Tools Used |
+| :--- | :--- |
+| **Data Cleaning** | Python (Pandas, NumPy) |
+| **Database** | SQL |
+| **Visualization** | Power BI |
+| **Executive Reporting** | Canva |
+| **Version Control** | GitHub |
+
+---
+
+# Intended Users
+
+- Public Health Officers
+- County Health Management Teams
+- NGOs and Development Programs
+- Healthcare Analysts
+- Health Informatics Professionals
+- Recruiters and Portfolio Reviewers
+
+---
+
+# Limitations
+
+- Synthetic demonstration dataset
+- Simplified county-level modeling
+- Not intended for direct clinical deployment
+
+---
+
+# Project Status
+
+Completed as a professional healthcare analytics portfolio project focused on:
+- Clinical KPI reporting
+- Public health analytics
+- Maternal health monitoring
+- Executive dashboard visualization
+
+---
+
+# Author
+
+## **Brian Mtepe**
+**KRCHN Registered Nurse | Health Data Analyst**
+
+### Specializations
