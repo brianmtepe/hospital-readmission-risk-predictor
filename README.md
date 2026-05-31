@@ -36,7 +36,7 @@ Executive-level summary of readmission performance and patient risk indicators.
 
 Analysis of readmission trends, patient characteristics, and operational drivers.
 
-![Clinical Performance Analysis](images/Clinical_Readmission_Risk_Overview.jpeg)
+![Clinical Performance Analysis](images/Clinical_Readmissio_Risk_Overview.jpeg)
 
 #### **Analysis Areas**
 * **Readmission trends**
