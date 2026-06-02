@@ -1,20 +1,20 @@
-🏥 Hospital Readmission Analytics & Risk Prediction Dashboard
+# 🏥 Hospital Readmission Analytics & Risk Prediction Dashboard
 
-Clinical Intelligence for Reducing 30-Day Hospital Readmissions
+## Clinical Intelligence for Reducing 30-Day Hospital Readmissions
 
 This healthcare analytics project was developed to identify readmission patterns, high-risk patient populations, and operational drivers contributing to 30-day hospital readmissions.
 
 Using SQL (MySQL), Python, and Power BI, the solution transforms raw transactional clinical data into actionable insights that support discharge planning, risk stratification, and healthcare decision-making.
 
-Executive Summary
+# Executive Summary
 
 Hospital readmissions are a major challenge for healthcare systems, contributing to increased costs, resource utilization, and adverse patient outcomes.
 
 This project analyzes patient-level clinical data to identify factors associated with elevated readmission risk and presents findings through an interactive Power BI dashboard designed for healthcare leaders, analysts, and quality improvement teams.
 
-📊 Dashboard Pages
+# 📊 Dashboard Pages
 
-1. Executive Readmission Overview
+## 1. Executive Readmission Overview
 
 "Executive Readmission Overview" (images/dashboard_overview.png)
 
@@ -27,7 +27,7 @@ Highlights
 - Executive KPI tracking
 - Clinical performance summary
 
-2. Clinical Performance Analysis
+## 2. Clinical Performance Analysis
 
 "Clinical Performance Analysis" (images/Clinical_Readmission_Risk_Overview.jpeg)
 
@@ -40,7 +40,7 @@ Analysis Areas
 - Polypharmacy impact assessment
 - Discharge pathway evaluation
 
-3. Care Transition & Financial Risk Analysis
+## 3. Care Transition & Financial Risk Analysis
 
 "Care Transition & Financial Risk Analysis" (images/financial_impact_dashboard.png)
 
@@ -53,7 +53,7 @@ Operational Insights
 - Readmission cost drivers
 - Intervention prioritization opportunities
 
-🛠 SQL Engineering Showcase
+# 🛠 SQL Engineering Showcase
 
 The dashboard is powered by a structured MySQL analytics pipeline responsible for transforming raw patient encounter data into analytics-ready datasets.
 
@@ -71,7 +71,7 @@ Data Quality Validation
         ↓
 Power BI Dashboard
 
-SQL Development Workflow
+## SQL Development Workflow
 
 "SQL Development Workflow" (images/SQL_Development_Workflow.png)
 
@@ -84,7 +84,7 @@ Skills Demonstrated
 - SQL Development
 - Data Validation
 
-Clinical Feature Engineering
+## Clinical Feature Engineering
 
 "Clinical Feature Engineering" (images/Clinical_Feature_Engineering.png)
 
@@ -97,7 +97,7 @@ Key Implementations
 - Risk stratification rules
 - Clinical cohort generation
 
-Business Intelligence Views
+## Business Intelligence Views
 
 "Business Intelligence Views" (images/Business_Intelligence_Views.png)
 
@@ -110,13 +110,13 @@ Key Outputs
 - Care pathway monitoring
 - Dashboard-ready datasets
 
-Business Intelligence Output
+## Business Intelligence Output
 
 "Business Intelligence Output" (images/Business_Intelligence_Output.png)
 
 Pre-aggregated SQL outputs integrated into Power BI for executive healthcare reporting.
 
-🎯 Project Objectives
+# 🎯 Project Objectives
 
 - Monitor 30-day readmission performance
 - Identify high-risk patient populations
@@ -124,7 +124,7 @@ Pre-aggregated SQL outputs integrated into Power BI for executive healthcare rep
 - Support healthcare decision-making
 - Enable quality improvement initiatives
 
-🔍 Key SQL Skills Demonstrated
+# 🔍 Key SQL Skills Demonstrated
 
 - Database Design
 - Data Modeling
@@ -135,17 +135,16 @@ Pre-aggregated SQL outputs integrated into Power BI for executive healthcare rep
 - Analytics View Development
 - Data Quality Validation
 
-📈 Business Value
+# 📈 Business Value
 
 This solution supports:
-
 - Readmission risk monitoring
 - Healthcare KPI reporting
 - Financial exposure tracking
 - Clinical performance evaluation
 - Operational decision support
 
-🛠 Technology Stack
+# 🛠 Technology Stack
 
 Category| Tools
 Database| MySQL
@@ -154,14 +153,12 @@ Visualization| Power BI
 Machine Learning| Scikit-Learn
 Version Control| Git & GitHub
 
-👨‍⚕️ Author
+# 👨‍⚕️ Author
 
 Brian Mtepe
-
 KRCHN Registered Nurse | Healthcare Data Analyst
 
-Specializations
-
+# Specializations
 - Healthcare Analytics
 - SQL
 - Python
