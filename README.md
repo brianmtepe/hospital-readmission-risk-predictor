@@ -29,7 +29,7 @@ Highlights
 
 ## 2. Clinical Performance Analysis
 
-![Clinical Performance Analysis](images/Hospital_Readmission_Risk_Analytics_Pipeline.jpeg)
+![Clinical Performance Analysis](images/Hospital_Readmission_Risk_Analytics_Pipeline.png)
 
 Analysis of readmission trends, patient characteristics, and operational drivers.
 
@@ -109,12 +109,6 @@ Key Outputs
 - Financial impact analysis
 - Care pathway monitoring
 - Dashboard-ready datasets
-
-## Business Intelligence Output
-
-![Business Intelligence Output](images/Business_Intelligence_Output.png)
-
-Pre-aggregated SQL outputs integrated into Power BI for executive healthcare reporting.
 
 # 🎯 Project Objectives
 
