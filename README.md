@@ -1,255 +1,161 @@
-# 🏥 Hospital Readmission Analytics & Risk Prediction Dashboard
+🏥 Hospital Readmission Analytics & Risk Prediction
 
-## **Clinical Intelligence for Reducing 30-Day Hospital Readmissions**
+Healthcare analytics solution designed to identify patient readmission patterns, stratify clinical risk, and quantify financial exposure associated with 30-day hospital readmissions.
 
-This healthcare analytics project was developed to identify readmission patterns, high-risk patient populations, and operational drivers contributing to 30-day hospital readmissions.
-
-Using **SQL**, **Python**, and **Power BI**, the solution transforms clinical data into actionable insights that support discharge planning, risk stratification, and healthcare decision-making.
+Built using MySQL, Python, and Power BI to transform raw patient encounter data into actionable clinical and operational insights.
 
 ---
 
-## **Executive Summary**
+📊 Dashboard Overview
 
-Hospital readmissions are a major challenge for healthcare systems, contributing to increased costs, resource utilization, and adverse patient outcomes.
+Executive Readmission Summary
 
-This project analyzes patient-level clinical data to identify factors associated with elevated readmission risk and presents findings through an interactive Power BI dashboard designed for healthcare leaders, analysts, and quality improvement teams.
+"Executive Dashboard" (images/Readmission_Risk_Executive_Summary.png)
 
----
+Provides executive-level monitoring of:
 
-## **Dashboard Pages**
+- Readmission rates
+- High-risk patient populations
+- Clinical KPIs
+- Healthcare performance trends
 
-### **1. Executive Readmission Overview**
+Clinical Risk Analysis
 
-Executive-level summary of readmission performance and patient risk indicators.
+"Clinical Risk Analysis" (images/Clinical_Readmission_Risk_Overview.jpeg)
 
-![Executive Readmission Overview](images/Readmission_Risk_Executive_Summary.png)
+Analyzes:
 
-#### **Highlights**
-* **Readmission rate monitoring**
-* **High-risk patient overview**
-* **Executive KPI tracking**
-* **Clinical performance summary**
+- Length of stay impact
+- Polypharmacy burden
+- Patient risk segmentation
+- Readmission drivers
 
----
+Care Transition & Financial Impact
 
-### **2. Clinical Performance Analysis**
+"Financial Impact Analysis" (images/Care_Transition_&_Financial_Risk_Analysis.jpeg)
 
-Analysis of readmission trends, patient characteristics, and operational drivers.
+Highlights:
 
-![Clinical Performance Analysis](images/Clinical_Readmission_Risk_Overview.jpeg)
-
-#### **Analysis Areas**
-* **Readmission trends**
-* **Length of stay analysis**
-* **Polypharmacy impact assessment**
-* **Discharge pathway evaluation**
-
----
-
-### **3. Care Transition & Financial Risk Analysis**
-
-Assessment of care transitions, medication burden, and financial exposure associated with readmissions.
-
-![Care Transition & Financial Risk Analysis](images/Care_Transition_&_Financial_Risk_Analysis.jpeg)
-
-#### **Operational Insights**
-* **Financial risk exposure**
-* **Medication burden correlation**
-* **Readmission cost drivers**
-* **Intervention prioritization opportunities**
+- Financial exposure from readmissions
+- Discharge pathway outcomes
+- Cost drivers
+- Intervention opportunities
 
 ---
 
-## **Problem Statement**
+🛠 SQL Engineering Showcase
 
-Thirty-day hospital readmissions are frequently associated with:
-* **Inadequate discharge planning**
-* **Poor care transition processes**
-* **Medication management challenges**
-* **High-risk chronic disease populations**
+Analytics Pipeline
 
-Healthcare organizations require timely and accurate analytics to identify vulnerable patient groups and implement targeted interventions before avoidable readmissions occur. Traditional reporting methods often fail to provide sufficient visibility into underlying clinical and operational risk factors.
+Raw Clinical Data
+      ↓
+Database Design
+      ↓
+Feature Engineering
+      ↓
+Analytics Views
+      ↓
+Data Quality Validation
+      ↓
+Power BI Dashboard
 
----
+SQL Development Workflow
 
-## **Solution Overview**
+"SQL Workflow" (images/SQL_Development_Workflow.png)
 
-A multi-page Power BI analytics solution was developed to:
-* **Monitor hospital readmission performance**
-* **Identify high-risk patient cohorts**
-* **Evaluate operational and clinical risk factors**
-* **Support evidence-based healthcare decision-making**
-* **Transform raw clinical data into actionable insights**
+Core SQL components:
 
-### **Workflow**
-* **SQL data extraction and transformation**
-* **Python (Pandas) data cleaning and preprocessing**
-* **Power BI dashboard development**
-* **Clinical KPI reporting and visualization**
+- Database schema design
+- Healthcare feature engineering
+- Analytics view development
+- Data quality validation
 
----
+Clinical Feature Engineering
 
-## **Project Objectives**
+"Clinical Feature Engineering" (images/Clinical_Feature_Engineering.png)
 
-* **Monitor 30-day readmission performance**
-* **Identify high-risk patient populations**
-* **Evaluate polypharmacy-related risk**
-* **Assess discharge pathway outcomes**
-* **Support healthcare quality improvement initiatives**
-* **Enable data-driven operational decision-making**
+Implemented:
 
----
+- Dynamic healthcare cost calculations
+- Diagnosis categorization logic
+- Risk stratification rules
+- Clinical cohort generation
 
-## **SQL Analytics Highlights**
+Business Intelligence Views
 
-The project utilizes SQL extensively to transform raw healthcare records into analysis-ready datasets.
+"Business Intelligence Views" (images/Business_Intelligence_Views.png)
 
-### **Data Cleaning & Standardization**
-* **Diagnosis normalization**
-* **Missing value validation**
-* **Duplicate record management**
-* **Data quality checks**
+Developed reusable reporting views for:
 
-### **Feature Engineering**
-* **Age cohort creation**
-* **Risk stratification categories**
-* **Polypharmacy segmentation**
-* **Clinical cohort development**
+- Readmission metrics
+- Financial impact analysis
+- Care pathway monitoring
 
-### **Readmission Analytics**
-* **Readmission rate calculations**
-* **Length of stay analysis**
-* **Discharge pathway assessment**
-* **Patient outcome tracking**
+Business Intelligence Output
 
-### **Advanced SQL Techniques**
-* **Common Table Expressions (CTEs)**
-* **Window Functions**
-* **CASE WHEN Logic**
-* **Aggregate Functions**
-* **Multi-table Joins**
-* **Data Quality Validation Queries**
+"Business Intelligence Output" (images/Business_Intelligence_Output.png)
 
-### **Repository SQL Files**
-* `01_database_setup.sql`
-* `02_feature_engineering.sql`
-* `03_analytics_views.sql`
-* `04_data_quality_checks.sql`
+Prepared dashboard-ready datasets supporting executive healthcare reporting.
 
 ---
 
-## **Key Clinical Insights**
+🎯 Project Objectives
 
-| Indicator | Finding |
-| :--- | :--- |
-| **Length of Stay** | Moderate stays (3–8 days) showed elevated readmission patterns |
-| **Polypharmacy** | Higher medication burden correlated with increased readmission risk |
-| **Age Groups** | Older patients demonstrated higher-risk profiles |
-| **Care Transitions** | Certain discharge pathways exhibited higher readmission rates |
-| **Risk Cohorts** | Readmission risk varied substantially across patient groups |
+- Monitor 30-day readmission performance
+- Identify high-risk patient groups
+- Evaluate operational risk factors
+- Support healthcare decision-making
+- Enable data-driven quality improvement
 
 ---
 
-## **Dashboard Features**
+🔍 Key SQL Skills Demonstrated
 
-* **Multi-page interactive Power BI dashboard**
-* **Patient risk stratification**
-* **Clinical KPI monitoring**
-* **Length of stay analysis**
-* **Polypharmacy tracking**
-* **Financial risk evaluation**
-* **Interactive filtering and drill-down capabilities**
-
----
-
-## **Technical Workflow**
-
-### **Data Preparation**
-* **SQL data extraction**
-* **Python (Pandas) preprocessing**
-* **Dataset transformation and validation**
-
-### **Dashboard Development**
-* **Power BI data modeling**
-* **DAX calculations**
-* **KPI development**
-* **Interactive healthcare visualizations**
-
-### **Reporting**
-* **Executive dashboard reporting**
-* **Clinical performance monitoring**
-* **Healthcare decision-support analytics**
+- Schema Design
+- Data Modeling
+- CASE WHEN Logic
+- Aggregate Functions
+- Multi-Table Joins
+- Feature Engineering
+- Analytics Views
+- Data Quality Validation
 
 ---
 
-## **Technical Stack**
+📈 Business Value
 
-| Category | Tools Used |
-| :--- | :--- |
-| **Data Cleaning** | Python (Pandas) |
-| **Database** | SQL |
-| **Visualization** | Power BI |
-| **Predictive Analytics** | scikit-learn |
-| **Version Control** | Git & GitHub |
+This solution supports:
 
----
-
-## **Business Value**
-
-This project demonstrates how healthcare analytics can support:
-* **Early identification of high-risk patients**
-* **Improved discharge planning**
-* **Enhanced operational monitoring**
-* **Reduced readmission-related costs**
-* **Better healthcare resource allocation**
-* **Quality improvement initiatives**
+- Readmission risk monitoring
+- Healthcare KPI reporting
+- Financial exposure tracking
+- Clinical performance evaluation
+- Operational decision support
 
 ---
 
-## **Intended Users**
+🛠 Technology Stack
 
-* **Hospital Administrators**
-* **Clinical Quality Teams**
-* **Healthcare Data Analysts**
-* **Health Informatics Professionals**
-* **Operational Managers**
-* **Recruiters and Portfolio Reviewers**
-
----
-
-## **Limitations**
-
-* **Educational portfolio project**
-* **Demonstration dataset**
-* **Simplified risk modeling approach**
-* **Not intended for direct clinical deployment**
+Category| Tools
+Database| MySQL
+Data Processing| Python (Pandas)
+Visualization| Power BI
+Machine Learning| Scikit-Learn
+Version Control| Git & GitHub
 
 ---
 
-## **Project Status**
+👨‍⚕️ Author
 
-Completed as a professional healthcare analytics portfolio project focused on:
-* **Readmission monitoring**
-* **Clinical risk stratification**
-* **Healthcare operations analytics**
-* **Executive dashboard reporting**
+Brian Mtepe
 
----
+KRCHN Registered Nurse | Healthcare Data Analyst
 
-## **Author**
+Specializations
 
-### **Brian Mtepe**
-**KRCHN Registered Nurse | Healthcare Data Analyst**
-
-#### **Specializations**
-* **Healthcare Analytics**
-* **SQL**
-* **Python**
-* **Power BI**
-* **Clinical Informatics**
-* **Monitoring & Evaluation (M&E)**
-* **Data Visualization**
-
----
-
-> *Transforming healthcare data into actionable clinical and operational insights.*
+- Healthcare Analytics
+- SQL
+- Python
+- Power BI
+- Clinical Informatics
+- Data Visualization
