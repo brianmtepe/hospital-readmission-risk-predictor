@@ -140,12 +140,12 @@ This solution supports:
 
 # 🛠 Technology Stack
 
-Category| Tools
-Database| MySQL
-Data Processing| Python (Pandas)
-Visualization| Power BI
-Machine Learning| Scikit-Learn
-Version Control| Git & GitHub
+Category | Tools
+-Database | MySQL
+-Data Processing | Python (Pandas)
+-Visualization | Power BI
+-Machine Learning | Scikit-Learn
+-Version Control | Git & GitHub
 
 # 👨‍⚕️ Author
 
@@ -160,4 +160,3 @@ KRCHN Registered Nurse | Healthcare Data Analyst
 - Clinical Informatics
 - Monitoring & Evaluation (M&E)
 - Data Visualization
--
