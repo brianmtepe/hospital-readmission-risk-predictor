@@ -1,80 +1,96 @@
-🏥 Hospital Readmission Analytics & Risk Prediction
+🏥 Hospital Readmission Analytics & Risk Prediction Dashboard
 
-Healthcare analytics solution designed to identify patient readmission patterns, stratify clinical risk, and quantify financial exposure associated with 30-day hospital readmissions.
+Clinical Intelligence for Reducing 30-Day Hospital Readmissions
 
-Built using MySQL, Python, and Power BI to transform raw patient encounter data into actionable clinical and operational insights.
+This healthcare analytics project was developed to identify readmission patterns, high-risk patient populations, and operational drivers contributing to 30-day hospital readmissions.
 
----
+Using SQL (MySQL), Python, and Power BI, the solution transforms raw transactional clinical data into actionable insights that support discharge planning, risk stratification, and healthcare decision-making.
 
-📊 Dashboard Overview
+Executive Summary
 
-Executive Readmission Summary
+Hospital readmissions are a major challenge for healthcare systems, contributing to increased costs, resource utilization, and adverse patient outcomes.
 
-"Executive Dashboard" (images/Readmission_Risk_Executive_Summary.png)
+This project analyzes patient-level clinical data to identify factors associated with elevated readmission risk and presents findings through an interactive Power BI dashboard designed for healthcare leaders, analysts, and quality improvement teams.
 
-Provides executive-level monitoring of:
+📊 Dashboard Pages
 
-- Readmission rates
-- High-risk patient populations
-- Clinical KPIs
-- Healthcare performance trends
+1. Executive Readmission Overview
 
-Clinical Risk Analysis
+"Executive Readmission Overview" (images/dashboard_overview.png)
 
-"Clinical Risk Analysis" (images/Clinical_Readmission_Risk_Overview.jpeg)
+Executive-level summary of readmission performance and patient risk indicators.
 
-Analyzes:
+Highlights
 
-- Length of stay impact
-- Polypharmacy burden
-- Patient risk segmentation
-- Readmission drivers
+- Readmission rate monitoring
+- High-risk patient overview
+- Executive KPI tracking
+- Clinical performance summary
 
-Care Transition & Financial Impact
+2. Clinical Performance Analysis
 
-"Financial Impact Analysis" (images/Care_Transition_&_Financial_Risk_Analysis.jpeg)
+"Clinical Performance Analysis" (images/Clinical_Readmission_Risk_Overview.jpeg)
 
-Highlights:
+Analysis of readmission trends, patient characteristics, and operational drivers.
 
-- Financial exposure from readmissions
-- Discharge pathway outcomes
-- Cost drivers
-- Intervention opportunities
+Analysis Areas
 
----
+- Readmission trends
+- Length of stay analysis
+- Polypharmacy impact assessment
+- Discharge pathway evaluation
+
+3. Care Transition & Financial Risk Analysis
+
+"Care Transition & Financial Risk Analysis" (images/financial_impact_dashboard.png)
+
+Assessment of care transitions, medication burden, and financial exposure associated with readmissions.
+
+Operational Insights
+
+- Financial risk exposure
+- Medication burden correlation
+- Readmission cost drivers
+- Intervention prioritization opportunities
 
 🛠 SQL Engineering Showcase
 
-Analytics Pipeline
+The dashboard is powered by a structured MySQL analytics pipeline responsible for transforming raw patient encounter data into analytics-ready datasets.
+
+Analytics Workflow
 
 Raw Clinical Data
-      ↓
+        ↓
 Database Design
-      ↓
+        ↓
 Feature Engineering
-      ↓
-Analytics Views
-      ↓
+        ↓
+Business Intelligence Views
+        ↓
 Data Quality Validation
-      ↓
+        ↓
 Power BI Dashboard
 
 SQL Development Workflow
 
-"SQL Workflow" (images/SQL_Development_Workflow.png)
+"SQL Development Workflow" (images/SQL_Development_Workflow.png)
 
-Core SQL components:
+Demonstrates the complete SQL pipeline from schema design through reporting-layer preparation.
 
-- Database schema design
-- Healthcare feature engineering
-- Analytics view development
-- Data quality validation
+Skills Demonstrated
+
+- Database Design
+- Schema Engineering
+- SQL Development
+- Data Validation
 
 Clinical Feature Engineering
 
 "Clinical Feature Engineering" (images/Clinical_Feature_Engineering.png)
 
-Implemented:
+Advanced SQL transformations used to enrich raw patient records.
+
+Key Implementations
 
 - Dynamic healthcare cost calculations
 - Diagnosis categorization logic
@@ -85,42 +101,39 @@ Business Intelligence Views
 
 "Business Intelligence Views" (images/Business_Intelligence_Views.png)
 
-Developed reusable reporting views for:
+Created reusable reporting views optimized for downstream analytics.
+
+Key Outputs
 
 - Readmission metrics
 - Financial impact analysis
 - Care pathway monitoring
+- Dashboard-ready datasets
 
 Business Intelligence Output
 
 "Business Intelligence Output" (images/Business_Intelligence_Output.png)
 
-Prepared dashboard-ready datasets supporting executive healthcare reporting.
-
----
+Pre-aggregated SQL outputs integrated into Power BI for executive healthcare reporting.
 
 🎯 Project Objectives
 
 - Monitor 30-day readmission performance
-- Identify high-risk patient groups
+- Identify high-risk patient populations
 - Evaluate operational risk factors
 - Support healthcare decision-making
-- Enable data-driven quality improvement
-
----
+- Enable quality improvement initiatives
 
 🔍 Key SQL Skills Demonstrated
 
-- Schema Design
+- Database Design
 - Data Modeling
 - CASE WHEN Logic
 - Aggregate Functions
 - Multi-Table Joins
 - Feature Engineering
-- Analytics Views
+- Analytics View Development
 - Data Quality Validation
-
----
 
 📈 Business Value
 
@@ -132,8 +145,6 @@ This solution supports:
 - Clinical performance evaluation
 - Operational decision support
 
----
-
 🛠 Technology Stack
 
 Category| Tools
@@ -142,8 +153,6 @@ Data Processing| Python (Pandas)
 Visualization| Power BI
 Machine Learning| Scikit-Learn
 Version Control| Git & GitHub
-
----
 
 👨‍⚕️ Author
 
@@ -158,4 +167,5 @@ Specializations
 - Python
 - Power BI
 - Clinical Informatics
+- Monitoring & Evaluation (M&E)
 - Data Visualization
