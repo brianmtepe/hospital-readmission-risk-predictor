@@ -16,7 +16,7 @@ This project analyzes patient-level clinical data to identify factors associated
 
 ## 1. Executive Readmission Overview
 
-"Executive Readmission Overview" (images/dashboard_overview.png)
+![Executive Readmission Overview](images/dashboard_overview.png)
 
 Executive-level summary of readmission performance and patient risk indicators.
 
@@ -29,7 +29,7 @@ Highlights
 
 ## 2. Clinical Performance Analysis
 
-"Clinical Performance Analysis" (images/Clinical_Readmission_Risk_Overview.jpeg)
+![Clinical Performance Analysis](images/Clinical_Readmission_Risk_Overview.jpeg)
 
 Analysis of readmission trends, patient characteristics, and operational drivers.
 
@@ -42,7 +42,7 @@ Analysis Areas
 
 ## 3. Care Transition & Financial Risk Analysis
 
-"Care Transition & Financial Risk Analysis" (images/financial_impact_dashboard.png)
+![Care Transition & Financial Risk Analysis](images/financial_impact_dashboard.png)
 
 Assessment of care transitions, medication burden, and financial exposure associated with readmissions.
 
@@ -73,7 +73,7 @@ Power BI Dashboard
 
 ## SQL Development Workflow
 
-"SQL Development Workflow" (images/SQL_Development_Workflow.png)
+![SQL Development Workflow](images/SQL_Development_Workflow.png)
 
 Demonstrates the complete SQL pipeline from schema design through reporting-layer preparation.
 
@@ -86,7 +86,7 @@ Skills Demonstrated
 
 ## Clinical Feature Engineering
 
-"Clinical Feature Engineering" (images/Clinical_Feature_Engineering.png)
+![Clinical Feature Engineering](images/Clinical_Feature_Engineering.png)
 
 Advanced SQL transformations used to enrich raw patient records.
 
@@ -99,7 +99,7 @@ Key Implementations
 
 ## Business Intelligence Views
 
-"Business Intelligence Views" (images/Business_Intelligence_Views.png)
+![Business Intelligence Views](images/Business_Intelligence_Views.png)
 
 Created reusable reporting views optimized for downstream analytics.
 
@@ -112,7 +112,7 @@ Key Outputs
 
 ## Business Intelligence Output
 
-"Business Intelligence Output" (images/Business_Intelligence_Output.png)
+![Business Intelligence Output](images/Business_Intelligence_Output.png)
 
 Pre-aggregated SQL outputs integrated into Power BI for executive healthcare reporting.
 
@@ -166,3 +166,4 @@ KRCHN Registered Nurse | Healthcare Data Analyst
 - Clinical Informatics
 - Monitoring & Evaluation (M&E)
 - Data Visualization
+-
