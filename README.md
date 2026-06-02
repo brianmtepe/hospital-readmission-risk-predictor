@@ -16,7 +16,7 @@ This project analyzes patient-level clinical data to identify factors associated
 
 ## 1. Executive Readmission Overview
 
-![Executive Readmission Overview](images/dashboard_overview.png)
+![Executive Readmission Overview](images/Readmission_Risk_Executive_Summary.png)
 
 Executive-level summary of readmission performance and patient risk indicators.
 
@@ -29,7 +29,7 @@ Highlights
 
 ## 2. Clinical Performance Analysis
 
-![Clinical Performance Analysis](images/Clinical_Readmission_Risk_Overview.jpeg)
+![Clinical Performance Analysis](images/Hospital_Readmission_Risk_Analytics_Pipeline.jpeg)
 
 Analysis of readmission trends, patient characteristics, and operational drivers.
 
@@ -42,7 +42,7 @@ Analysis Areas
 
 ## 3. Care Transition & Financial Risk Analysis
 
-![Care Transition & Financial Risk Analysis](images/financial_impact_dashboard.png)
+![Care Transition & Financial Risk Analysis](images/Business_Intelligence_Output.png)
 
 Assessment of care transitions, medication burden, and financial exposure associated with readmissions.
 
