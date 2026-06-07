@@ -140,12 +140,12 @@ This solution supports:
 
 # 🛠 Technology Stack
 
-Category | Tools
--Database | MySQL
--Data Processing | Python (Pandas)
--Visualization | Power BI
--Machine Learning | Scikit-Learn
--Version Control | Git & GitHub
+| Category | Tools |
+|----------|--------|
+| Database | MySQL |
+| Data Processing | Python, Pandas |
+| Analytics | SQL |
+| Visualization | Power BI |
 
 # 👨‍⚕️ Author
 
